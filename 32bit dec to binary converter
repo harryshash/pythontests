@@ -1,0 +1,314 @@
+import sys
+import os
+def restart():
+    python = sys.executable
+    os.execl(python, python, * sys.argv)
+try:
+    dec=int(input("What integer would you like to be converted into binary?"))
+except ValueError:
+    print ("That is not an integer")
+    restart()
+if dec<0:
+    print("That is not a positive integer")
+else:
+    if dec>2147483647:
+        print("The integer must be less than 2147483648")
+        restart()
+    else:
+        if int(dec)/2==int(dec/2):
+            rem=0
+        else:
+            rem=1
+        dec1=dec/2
+        if int(dec1)/2==int(dec1/2):
+            rem1=0
+        else:
+            rem1=1
+        dec2=dec1/2
+        if int(dec2)/2==int(dec2/2):
+            rem2=0
+        else:
+            rem2=1
+        dec3=dec2/2
+        if int(dec3)/2==int(dec3/2):
+            rem3=0
+        else:
+            rem3=1
+        dec4=dec3/2
+        if int(dec4)/2==int(dec4/2):
+            rem4=0
+        else:
+           rem4=1
+        dec5=dec4/2
+        if int(dec5)/2==int(dec5/2):
+            rem5=0
+        else:
+            rem5=1
+        dec6=dec5/2
+        if int(dec6)/2==int(dec6/2):
+            rem6=0
+        else:
+            rem6=1
+        dec7=dec6/2
+        if int(dec7)/2==int(dec7/2):
+            rem7=0
+        else:
+            rem7=1
+        dec8=dec7/2
+        if int(dec8)/2==int(dec8/2):
+            rem8=0
+        else:
+            rem8=1
+        dec9=dec8/2
+        if int(dec9)/2==int(dec9/2):
+            rem9=0
+        else:
+            rem9=1
+        dec10=dec9/2
+        if int(dec10)/2==int(dec10/2):
+            rem10=0
+        else:
+            rem10=1
+        dec11=dec10/2
+        if int(dec11)/2==int(dec11/2):
+            rem11=0
+        else:
+            rem11=1
+        dec12=dec11/2
+        if int(dec12)/2==int(dec12/2):
+            rem12=0
+        else:
+            rem12=1
+        dec13=dec12/2
+        if int(dec13)/2==int(dec13/2):
+            rem13=0
+        else:
+            rem13=1
+        dec14=dec13/2
+        if int(dec14)/2==int(dec14/2):
+            rem14=0
+        else:
+            rem14=1
+        dec15=dec14/2
+        if int(dec15)/2==int(dec15/2):
+            rem15=0
+        else:
+            rem15=1
+        dec16=dec15/2
+        if int(dec16)/2==int(dec16/2):
+            rem16=0
+        else:
+            rem16=1
+        dec17=dec16/2
+        if int(dec17)/2==int(dec17/2):
+            rem17=0
+        else:
+            rem17=1
+        dec18=dec17/2
+        if int(dec18)/2==int(dec18/2):
+            rem18=0
+        else:
+            rem18=1
+        dec19=dec18/2
+        if int(dec19)/2==int(dec19/2):
+            rem19=0
+        else:
+            rem19=1
+        dec20=dec19/2
+        if int(dec20)/2==int(dec20/2):
+            rem20=0
+        else:
+            rem20=1
+        dec21=dec20/2
+        if int(dec21)/2==int(dec21/2):
+            rem21=0
+        else:
+            rem21=1
+        dec22=dec21/2
+        if int(dec22)/2==int(dec22/2):
+            rem22=0
+        else:
+            rem22=1
+        dec23=dec22/2
+        if int(dec23)/2==int(dec23/2):
+            rem23=0
+        else:
+            rem23=1
+        dec24=dec23/2
+        if int(dec24)/2==int(dec24/2):
+            rem24=0
+        else:
+            rem24=1
+        dec25=dec24/2
+        if int(dec25)/2==int(dec25/2):
+            rem25=0
+        else:
+            rem25=1
+        dec26=dec25/2
+        if int(dec26)/2==int(dec26/2):
+            rem26=0
+        else:
+            rem26=1
+        dec27=dec26/2
+        if int(dec27)/2==int(dec27/2):
+            rem27=0
+        else:
+            rem27=1
+        dec28=dec27/2
+        if int(dec28)/2==int(dec28/2):
+            rem28=0
+        else:
+            rem28=1
+        dec29=dec28/2
+        if int(dec29)/2==int(dec29/2):
+            rem29=0
+        else:
+            rem29=1
+        dec30=dec29/2
+        if int(dec30)/2==int(dec30/2):
+            rem30=0
+        else:
+            rem30=1
+        dec31=dec30/2
+        if int(dec30)/2==int(dec30/2):
+            rem30=0
+        else:
+            rem30=1
+        dec31=dec30/2
+        if int(dec31)/2==int(dec31/2):
+            rem31=0
+        else:
+            rem31=1
+
+        if rem31==1:
+            print(rem31,rem30,rem29,rem28,rem27,rem26,rem25,rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+            restart()
+        else:
+            if rem30==1:
+                print(rem30,rem29,rem28,rem27,rem26,rem25,rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                restart()
+            else:
+                if rem29==1:
+                    print(rem29,rem28,rem27,rem26,rem25,rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                    restart()
+                else:
+                    if rem28==1:
+                        print(rem28,rem27,rem26,rem25,rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                        restart()
+                    else:
+                        if rem27==1:
+                            print(rem27,rem26,rem25,rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                            restart()
+                        else:
+                            if rem26==1:
+                                print(rem26,rem25,rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                restart()
+                            else:
+                                if rem25==1:
+                                    print(rem25,rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                    restart()
+                                else:
+                                    if rem24==1:
+                                        print(rem24,rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                        restart()
+                                    else:
+                                        if rem23==1:
+                                            print(rem23,rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                            restart()
+                                        else:
+                                            if rem22==1:
+                                                print(rem22,rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                restart()
+                                            else:
+                                                if rem21==1:
+                                                    print(rem21,rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                    restart()
+                                                else:
+                                                    if rem20==1:
+                                                        print(rem20,rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                        restart()
+                                                    else:
+                                                        if rem19==1:
+                                                            print(rem19,rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                            restart()
+                                                        else:
+                                                            if rem18==1:
+                                                                print(rem18,rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                restart()
+                                                            else:
+                                                                if rem17==1:
+                                                                    print(rem17,rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                    restart()
+                                                                else:
+                                                                    if rem16==1:
+                                                                        print(rem16,rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                        restart()
+                                                                    else:
+                                                                        if rem15==1:
+                                                                            print(rem15,rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                            restart()
+                                                                        else:
+                                                                            if rem14==1:
+                                                                                print(rem14,rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                restart()
+                                                                            else:
+                                                                                if rem13==1:
+                                                                                    print(rem13,rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                    restart()
+                                                                                else:
+                                                                                    if rem12==1:
+                                                                                        print(rem12,rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                        restart()
+                                                                                    else:
+                                                                                        if rem11==1:
+                                                                                            print(rem11,rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                            restart()
+                                                                                        else:
+                                                                                            if rem10==1:
+                                                                                                print(rem10,rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                                restart()
+                                                                                            else:
+                                                                                                if rem9==1:
+                                                                                                    print(rem9,rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                                    restart()
+                                                                                                else:
+                                                                                                    if rem8==1:
+                                                                                                        print(rem8,rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                                        restart()
+                                                                                                    else:
+                                                                                                        if rem7==1:
+                                                                                                            print(rem7,rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                                            restart()
+                                                                                                        else:
+                                                                                                            if rem6==1:
+                                                                                                                print(rem6,rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                                                restart()
+                                                                                                            else:
+                                                                                                                if rem5==1:
+                                                                                                                    print(rem5,rem4,rem3,rem2,rem1,rem)
+                                                                                                                    restart()
+                                                                                                                else:
+                                                                                                                    if rem4==1:
+                                                                                                                        print(rem4,rem3,rem2,rem1,rem)
+                                                                                                                        restart()
+                                                                                                                    else:
+                                                                                                                        if rem3==1:
+                                                                                                                            print(rem3,rem2,rem1,rem)
+                                                                                                                            restart()
+                                                                                                                        else:
+                                                                                                                            if rem2==1:
+                                                                                                                                print(rem2,rem1,rem)
+                                                                                                                                restart()
+                                                                                                                            else:
+                                                                                                                                if rem1==1:
+                                                                                                                                    print(rem1,rem)
+                                                                                                                                    restart()
+                                                                                                                                else:
+                                                                                                                                    print(rem)
+                                                                                                                                    restart()
+                                                                                                                               
+                                                                                                                                    
+                                                                                    
+
+
+
